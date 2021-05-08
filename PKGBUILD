@@ -1,13 +1,13 @@
 # Maintainer: Ben Mather <bwhmather@bwhmather.com>
 
 pkgname=bedit-git
-pkgver=r12171.2409fa176
+pkgver=r12304.ddbc92d7c
 pkgrel=1
 pkgdesc="Ben's Text Editor"
 url="https://github.com/bwhmather/bedit"
 arch=(i686 x86_64 armv7h aarch64)
 license=(GPL)
-depends=(gtk3 gtksourceview4 gsettings-desktop-schemas libpeas gspell python-gobject dconf tepl)
+depends=(gtk3 gtksourceview4 gsettings-desktop-schemas libpeas gspell python-gobject dconf)
 makedepends=(yelp-tools vala gobject-introspection git gtk-doc meson)
 optdepends=(
   'libgit2-glib: for git integration'
